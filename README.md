@@ -7,6 +7,7 @@ In this paper we develop TOUCH, a novel in-memory spatial join algorithm that us
 
 Full description: http://bit.ly/TOUCH-nobari
 
+#Running Instructions
 How to compile/run:
 
 -Prerun: The following libraries to be installed:
