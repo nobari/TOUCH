@@ -24,8 +24,8 @@ Make the project via cmake and run as explained below:
 
 2. In folder "/build" execute "make"
 
-3. In folder "/run" execute "./SpatialJoin -a 5 -J 2 -e $EPSILON$ -i $datasetA$ $datasetB$" for example:
-"/SpatialJoin -a 5 -J 2 -e 10 -i ../data/RandomData-10K.bin ../data/RandomData-Normal-500-250-10K.bin"
+3. In folder "/run" execute "./SpatialJoin -a 5 -J 2 -e $EPSILON$ -i $datasetA$ $datasetB$".
+For example: "/SpatialJoin -a 5 -J 2 -e 10 -i ../data/RandomData-10K.bin ../data/RandomData-Normal-500-250-10K.bin"
 
 ###Postrun:
 The result and reports are stored in "/run/SJ.csv" in csv format.
