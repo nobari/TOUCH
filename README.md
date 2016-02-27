@@ -9,15 +9,15 @@ Full description: http://bit.ly/TOUCH-nobari
 
 How to compile/run:
 
-Prerun: The following libraries to be installed:
+-Prerun: The following libraries to be installed:
 -Boost (http://www.boost.org/)
 -CUDA (https://developer.nvidia.com/cuda-downloads)
 -CMake (http://www.cmake.org/download/)
 
-Run: make the project via cmake and run as explained below:
+-Run: make the project via cmake and run as explained below:
 -In folder "/build" execute "cmake ../cmake"
 -In folder "/build" execute "make"
 -In folder "/run" execute "./SpatialJoin -a 5 -J 2 -e $EPSILON$ -i $datasetA$ $datasetB$" for example:
 "/SpatialJoin -a 5 -J 2 -e 10 -i ../data/RandomData-10K.bin ../data/RandomData-Normal-500-250-10K.bin"
 
-Postrun: The result and reports are stored in "/run/SJ.csv" in csv format.
+-Postrun: The result and reports are stored in "/run/SJ.csv" in csv format.
