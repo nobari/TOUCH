@@ -5,9 +5,6 @@ Efficient spatial joins are pivotal for many applications and particularly impor
 
 In this paper we develop TOUCH, a novel in-memory spatial join algorithm that uses hierarchical data-oriented space partitioning, thereby keeping both its memory footprint and the number of comparisons low. Our results show that TOUCH outperforms known in-memory spatial-join algorithms as well as in-memory implementations of disk-based join approaches. In particular, it has a one order of magnitude advantage over the memory-demanding state of the art in terms of number of comparisons (i.e., pairwise object comparisons), as well as execution time, while it is two orders of magnitude faster when compared to approaches with a similar memory footprint. Furthermore, TOUCH is more scalable than competing approaches as data density grows.
 
-##Full description:
-http://bit.ly/TOUCH-nobari
-
 ##Running Instructions
 How to compile/run:
 
@@ -29,3 +26,32 @@ For example: "/SpatialJoin -a 5 -J 2 -e 10 -i ../data/RandomData-10K.bin ../data
 
 ###Postrun:
 The result and reports are stored in "/run/SJ.csv" in csv format.
+
+## Please cite the paper:
+[Sadegh Nobari](http://bit.ly/NOB-GS), Farhan Tauheed, Thomas Heinis, Panagiotis Karras, Stéphane Bressan, Anastasia Ailamaki,
+["TOUCH: in-memory spatial join by hierarchical data-oriented partitioning"](http://bit.ly/TOUCH-nobari),
+Proceedings of the ACM SIGMOD International Conference on Management of Data, SIGMOD 2013, New York, NY, USA, June 22-27, 2013: 701-712
+
+### BibTeX record
+
+ @inproceedings{Nobari:2013,
+  author    = {Sadegh Nobari and
+               Farhan Tauheed and
+               Thomas Heinis and
+               Panagiotis Karras and
+               St{\'{e}}phane Bressan and
+               Anastasia Ailamaki},
+  title     = {{TOUCH:} in-memory spatial join by hierarchical data-oriented partitioning},
+  booktitle = {Proceedings of the {ACM} {SIGMOD} International Conference on Management
+               of Data, {SIGMOD} 2013, New York, NY, USA, June 22-27, 2013},
+  pages     = {701--712},
+  year      = {2013},
+  url       = {http://doi.acm.org/10.1145/2463676.2463700},
+  doi       = {10.1145/2463676.2463700}
+}
+ 
+## Furthur reading
+[Full paper](http://bit.ly/TOUCH-nobari)
+
+## Email
+s @ s q n c o . c o m 
